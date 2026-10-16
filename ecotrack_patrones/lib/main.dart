@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'casos/aviso_semanal.dart';
+import 'casos/factory.dart';
 import 'casos/repository.dart';
 import 'casos/lab_guardar.dart';
 import 'casos/adapter.dart';
@@ -30,7 +30,7 @@ class EcoTrackApp extends StatelessWidget {
     // y la redirección correcta a cada pantalla.
     final casos = <(String, String, Widget)>[
       (
-        'Caso A',
+        'Caso A: Factory',
         'Centralizar la construcción de un objeto según el caso.',
         const PantallaAviso(),
       ),
