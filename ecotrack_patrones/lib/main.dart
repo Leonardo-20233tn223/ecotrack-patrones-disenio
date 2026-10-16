@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'casos/factory.dart';
 import 'casos/repository.dart';
-import 'casos/lab_guardar.dart';
+import 'casos/inyeccion_dependencias.dart';
 import 'casos/adapter.dart';
 import 'casos/registro_paneles.dart';
 import 'casos/tope_lectura.dart';
@@ -35,7 +35,7 @@ class EcoTrackApp extends StatelessWidget {
         const PantallaAviso(),
       ),
       (
-        'Caso B',
+        'Caso B: Inyeccion de dependencias',
         'Entregar desde fuera el objeto del que se depende.',
         const PantallaLab(),
       ),
