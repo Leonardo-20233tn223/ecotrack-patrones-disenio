@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 import 'casos/aviso_semanal.dart';
-import 'casos/consumo_memoria.dart';
+import 'casos/repository.dart';
 import 'casos/lab_guardar.dart';
 import 'casos/medidor_texto.dart';
 import 'casos/registro_paneles.dart';
 import 'casos/tope_lectura.dart';
 
 void main() {
-  final almacen = ConsumoEnMemoria();
+  final almacen = Repository();
   final lector = LectorMedidor(MedidorLegado());
   runApp(EcoTrackApp(almacen: almacen, lector: lector));
 }
