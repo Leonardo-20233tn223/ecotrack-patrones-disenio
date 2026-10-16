@@ -55,7 +55,7 @@ class EcoTrackApp extends StatelessWidget {
         const PantallaPaneles(),
       ),
       (
-        'Caso F',
+        'Caso F: Strategy',
         'Intercambiar una regla sin copiar if.',
         const PantallaTope(),
       ),
