@@ -5,7 +5,7 @@ import 'casos/repository.dart';
 import 'casos/inyeccion_dependencias.dart';
 import 'casos/adapter.dart';
 import 'casos/observer.dart';
-import 'casos/tope_lectura.dart';
+import 'casos/strategy.dart';
 
 void main() {
   final almacen = Repository();
