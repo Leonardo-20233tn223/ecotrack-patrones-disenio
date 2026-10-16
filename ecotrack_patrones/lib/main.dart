@@ -45,7 +45,7 @@ class EcoTrackApp extends StatelessWidget {
         PantallaMedidor(lector: lector),
       ),
       (
-        'Caso D',
+        'Caso D: Repository',
         'Ocultar de dónde salen los datos.',
         PantallaConsumo(almacen: almacen),
       ),
