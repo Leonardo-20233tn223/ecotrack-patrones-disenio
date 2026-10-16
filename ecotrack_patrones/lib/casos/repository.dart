@@ -5,7 +5,7 @@ abstract class AlmacenConsumo {
   List<double> todos();
 }
 
-class ConsumoEnMemoria implements AlmacenConsumo {
+class Repository implements AlmacenConsumo {
   final List<double> _litros = [];
 
   @override
