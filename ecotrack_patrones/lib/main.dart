@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'casos/aviso_semanal.dart';
 import 'casos/repository.dart';
 import 'casos/lab_guardar.dart';
-import 'casos/medidor_texto.dart';
+import 'casos/adapter.dart';
 import 'casos/registro_paneles.dart';
 import 'casos/tope_lectura.dart';
 
@@ -40,7 +40,7 @@ class EcoTrackApp extends StatelessWidget {
         const PantallaLab(),
       ),
       (
-        'Caso C',
+        'Caso C: Adapter',
         'Traducir un formato ajeno al de la app.',
         PantallaMedidor(lector: lector),
       ),
