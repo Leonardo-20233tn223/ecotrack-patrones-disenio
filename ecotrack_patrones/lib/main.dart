@@ -4,7 +4,7 @@ import 'casos/factory.dart';
 import 'casos/repository.dart';
 import 'casos/inyeccion_dependencias.dart';
 import 'casos/adapter.dart';
-import 'casos/registro_paneles.dart';
+import 'casos/observer.dart';
 import 'casos/tope_lectura.dart';
 
 void main() {
@@ -50,7 +50,7 @@ class EcoTrackApp extends StatelessWidget {
         PantallaConsumo(almacen: almacen),
       ),
       (
-        'Caso E',
+        'Caso E: Observer',
         'Avisar a varios interesados sin nombrarlos.',
         const PantallaPaneles(),
       ),
